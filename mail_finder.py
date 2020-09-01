@@ -1,14 +1,14 @@
 import requests
 import re
 
-to_crawl = ['http://exemplo.com']
+to_crawl = ['http://businesscorp.com.br/']
 crawled = set()
 
 emails_found = set()
 
-header = {'user-agent': 
-                        'Mozilla/5.0 (X11; Linux x86_64; rv:68.0)'
-                        ' Gecko/20100101 Firefox/68.0'}
+header = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                        'AppleWebKit/537.36 (KHTML, like Gecko) '
+                        'Chrome/51.0.2704.103 Safari/537.36'}
 
 
 for i in range(15):
